@@ -1,0 +1,24 @@
+lizenzTyp: "YOURMCSHOP" #YOURMCSHOP, FORUMAT, THUNDERARTS
+lizenzKey: "AD"
+BackendType: "FILE"
+SplitChar: "┃"
+PrefixFormat: "&8[%prefix%&8] "
+Over-1_16: true
+SplitColor: "&8"
+UseChatSystem: true
+ChatFormat: "%name%&8: &7%msg%"
+SQL:
+  host: localhost
+  database: prefix
+  username: admin
+  password: asd
+  port: 3306
+Inventory:
+  Title: "&d&lPrefix-Auswahl"
+  Size: 27
+Items:
+  Main:
+    Fill:
+      Material: STAINED_GLASS_PANE
+      SubID: 15
+      DisplayName: "&6"
