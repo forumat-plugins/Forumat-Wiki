@@ -1,0 +1,54 @@
+BackendType: "FILE"
+lizenzTyp: "YOURMCSHOP"
+lizenzKey: "MnG0QLpFD9F5tzlwTbQlnfem"
+SQL:
+  host: localhost
+  database: booster
+  username: admin
+  password: asd
+  port: 3306
+Announcments: [60, 30, 15, 10, 5, 3, 2, 1]
+Inventory:
+  Enabled: true
+  Name: "&8» &6&lBooster"
+  Size: 9
+  FillMaterial: "STAINED_GLASS_PANE"
+  FillSubID: 13
+Booster:
+  fly:
+    Enabled: true
+    DisplayName: "&b&lFly"
+    Slot: 1
+    Material: "FEATHER"
+    SubID: 0
+    Lenght: 600
+  break:
+    Enabled: true
+    DisplayName: "&e&lBreak"
+    Slot: 2
+    Material: "DIAMOND_PICKAXE"
+    SubID: 0
+    Lenght: 600
+    Level: 3
+  doublexp:
+    Enabled: true
+    DisplayName: "&5&lDoubleXP"
+    Slot: 3
+    Material: "EXP_BOTTLE"
+    SubID: 0
+    Lenght: 600
+  speed:
+    Enabled: true
+    DisplayName: "&f&lSpeed"
+    Slot: 4
+    Material: "LEATHER_BOOTS"
+    SubID: 0
+    Lenght: 600
+    Level: 3
+  nohunger:
+    Enabled: true
+    DisplayName: "&6&lNoHunger"
+    Slot: 3
+    Material: "COOKED_BEEF"
+    SubID: 0
+    Lenght: 600
