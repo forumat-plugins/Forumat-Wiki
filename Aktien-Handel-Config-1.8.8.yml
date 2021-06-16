@@ -1,0 +1,25 @@
+lizenzTyp: "YOURMCSHOP"
+lizenzKey: "ad"
+
+#MAIN INVENTORY
+InventoryName: "&6Aktien-Markt"
+InventorySize: 27
+FillMaterialName: "STAINED_GLASS_PANE"
+FillItemSubID: 15
+
+#CONFIRM INVENTORY
+MaterialNameConfirm: "WOOL"
+SubIDConfirm: 13
+DisplayNameConfirm: "&aBestätigen"
+MaterialNameDeny: "WOOL"
+SubIDDeny: 14
+DisplayNameDeny: "&cAbbrechen"
+ConfirmInfoMaterial: "SIGN"
+
+#UPDATE COUNT
+EnableUpdateTimer: true
+UpdateTimerTick: 72000
+BroadCastUpdate: true
+
+#HISTORY
+MaxHistoryShow: 10
