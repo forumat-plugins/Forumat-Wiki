@@ -1,0 +1,73 @@
+{
+  "lizenzKey": "asd",
+  "properties": {
+    "backend": "H2",
+    "sql_user": "asd",
+    "sql_port": "3306",
+    "sql_password": "asd",
+    "sql_database": "asd",
+    "sql_host": "asd",
+    "prefixFormat": "&8[%prefix%&8] %name%",
+    "reset_item_displayName": "&cPrefix zurücksetzen",
+    "reset_item_subID": "0",
+    "reset_item_slot": "26",
+    "reset_item_material": "BARRIER",
+    "prefixLoadingType": "VAULT",
+    "inventorySize": "27",
+    "inventoryName": "&6Prefix-Auswahl",
+    "use_chat": "true",
+    "chat_format": "%player% &8> &7%message%"
+  },
+  "prefixColors": [
+    {
+      "name": "Goldgrau",
+      "displayName": "&6Go&eld&7Gr&fau",
+      "permission": "prefix.goldgrau",
+      "material": "GOLD_BLOCK",
+      "subID": 0,
+      "interleaveStep": 2,
+      "slot": 0,
+      "skullOwner": "none",
+      "interleave": true,
+      "colors": [
+        "&6",
+        "&e",
+        "&7",
+        "&f"
+      ]
+    },
+    {
+      "name": "Doppelrot",
+      "displayName": "&4Doppel&cRot",
+      "permission": "prefix.doublered",
+      "material": "REDSTONE_BLOCK",
+      "subID": 0,
+      "interleaveStep": 2,
+      "slot": 1,
+      "skullOwner": "none",
+      "interleave": false,
+      "colors": [
+        "&4",
+        "&c"
+      ]
+    },
+    {
+      "name": "forumat",
+      "displayName": "&4Forumat - Prefix",
+      "permission": "prefix.forumat",
+      "material": "SKULL_ITEM",
+      "subID": 3,
+      "interleaveStep": 1,
+      "slot": 2,
+      "skullOwner": "Forumat",
+      "interleave": true,
+      "colors": [
+        "&0",
+        "&2",
+        "&4",
+        "&6",
+        "&8"
+      ]
+    }
+  ]
+}
